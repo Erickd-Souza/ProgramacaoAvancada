@@ -1,9 +1,9 @@
 package org.example;
 
 public class Produto {
-    int codigo;
-    String nome;
-    Double preco;
+   private int codigo;
+   private String nome;
+   private Double preco;
 
     public Produto(int codigo, String nome, Double preco) {
         this.codigo = codigo;
